@@ -34,10 +34,37 @@ def datatypes():
     else:
         print("No")
 
+def typecasting():
+    name = "jaya"
+    age = 30
+    gpa = 3.2
+    is_student = False
+    print(type(name))
+
+    gpa = int(gpa)
+    print(type(gpa))
+
+    age = float(age)
+    print(type(age))
+
+    age = str(age)
+    print(type(age))
+
+    age += "1"
+    print(age)
+
+    name = bool(name)
+    print(name)
+    name_empty = bool("")
+    print(name_empty)
+
 
 if __name__ == "__main__":
     datatypes()
     print("executed datatypes()")
+
+    typecasting()
+
 
 
 
