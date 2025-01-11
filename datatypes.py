@@ -58,12 +58,32 @@ def typecasting():
     name_empty = bool("")
     print(name_empty)
 
+def input_fun():
+    your_name = input("What is your name? ")
+    print(f"Hello, {your_name}, Happy coding!")
+
+def area_rectangle():
+    length = float(input("Enter the length of the rectangle:"))
+    width = float(input("Enter the width of the rectangle:"))
+    area = length * width
+    print(f"Area of the rectangle is: {area}cm^2")
+
+def shopping():
+    item = input("What do you want to buy?")
+    price = float(input("How much does it cost?"))
+    quantity = int(input("How many do you want to buy?"))
+    total = price * quantity
+    print(f"Total cost is: {total}")
 
 if __name__ == "__main__":
-    datatypes()
-    print("executed datatypes()")
+    # datatypes()
+    # print("executed datatypes()")
 
-    typecasting()
+    # typecasting()
+
+    # input_fun()
+    # area_rectangle()
+    shopping()
 
 
 
